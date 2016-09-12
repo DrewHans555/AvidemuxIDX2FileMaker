@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane"  maxHeight="-Infinity" maxWidth="-Infinity" 
+            minHeight="-Infinity" minWidth="-Infinity" prefHeight="105" 
+            prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" 
+            fx:controller="avidemuxidx2filemaker.GUIController">
+    <children>
+        <TextField fx:id="path" layoutX="5" layoutY="5" maxHeight="40" 
+                   maxWidth="310" minHeight="40" minWidth="310" 
+                   alignment="CENTER_LEFT" focusTraversable="false"  
+                   promptText="Paste directory location here" editable="true" />
+        <Button fx:id="button" layoutX="25" layoutY="55" maxHeight="40" 
+                maxWidth="290" minHeight="40" minWidth="270"  
+                text="Create IDX2 Files" onAction="#handleButtonAction" />
+    </children>
+</AnchorPane>
