@@ -8,3 +8,5 @@ Sometimes Avidemux will get hung up on creating the IDX2 file and then crash.
 This code is designed to take in a directory location and then create a IDX2 file for every file in the directory.  
 
 Doing this independent of Avidemux prevents crashes and allows you to go straight to video editing.
+
+For convenience I have included my source code and a JAR distribution that should work on any machine with Java.
