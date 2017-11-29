@@ -1,10 +1,7 @@
 # AvidemuxIDX2FileMaker
-This repository contains code written in Java 1.8 and is designed to be used with the program Avidemux 2.6.  
+This repository contains code written in Java 1.8 and is designed to be used with Avidemux 2.6. 
 
-When using loading a video file into Avidemux to edit the program will check to see if there is a IDX2 file next to the video file.  If no IDX2 file exists then Avidemux will attempt to create one before it loads the video you want to edit.
+When loading a video file Avidemux looks for an IDX2 index file to reference. If there is no IDX2 file then Avidemux will attempt to create one. In my experience using Avidemux 2.6, there is a 50% chance that the program will crash while trying to create this file. So, to get around this issue, I decided to write my own program to create the IDX2 files. JavaAvidemuxIDX2FileMaker takes in a directory path (for example, D:\Downloads\Videos) and then creates an IDX2 file for every file in the directory. You can download the JAR distribution or build the project yourself using my source code.
 
-Sometimes Avidemux successfully creates the IDX2 file and all is good.  Other times Avidemux will get hung up on creating the IDX2 file and then crash.
-
-This is were my program comes to the rescue!  This code takes in a directory location (for example, D:\Downloads\Videos) and then creates a IDX2 file for every file in the directory.  Creating the IDX2 files with this program, instead of Avidemux, will stop Avidemux from crashing when it loads a video because it will see that a IDX2 file already exists for the video you want to edit.
-
-For convenience I have included my source code and a JAR distribution that should work on any machine with Java 1.8 or higher.
+### Prerequisites
+* Java 1.8 or higher
