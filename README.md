@@ -10,4 +10,4 @@ JavaAvidemuxIDX2FileMaker takes in a directory path (for example, D:\Downloads\V
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
